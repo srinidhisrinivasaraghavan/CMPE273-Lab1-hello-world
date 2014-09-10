@@ -4,7 +4,7 @@
  * @author srinidhis
  * @since 1.0
  */
- buildscript {
+buildscript {
     repositories {
 	    maven { url "http://repo.spring.io/snapshot" }
 	    maven { url "http://repo.spring.io/milestone" }
@@ -30,7 +30,7 @@ jar {
 }
 
 bootRepackage {
-    mainClass = 'hello.SampleController'
+    mainClass = 'hello.HelloWebApplication'
 }
 
 repositories {
